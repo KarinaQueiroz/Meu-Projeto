@@ -1,0 +1,18 @@
+.home {
+    display: flex;
+    align-items: center;
+ }
+ 
+ .home p{
+     display: flex;
+     text-align: justify;
+     line-height: 2;
+     padding: 40px;
+ }
+ 
+ .home img{
+     width: 22%;
+     margin: 30px;
+     display: flex;
+ }
+ 

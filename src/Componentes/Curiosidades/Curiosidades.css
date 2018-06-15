@@ -1,0 +1,29 @@
+.voce-sabia h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.sabia{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+ }
+ 
+ .home p{
+     display: flex;
+     text-align: justify;
+     line-height: 2;
+     padding: 40px;
+ }
+ 
+ .home img{
+     width: 22%;
+     margin: 30px;
+     display: flex;
+ }

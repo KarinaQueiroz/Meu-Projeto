@@ -1,0 +1,19 @@
+.card{
+    justify-content: space-between;
+    margin-right: 30px;
+    font-size: 15px;
+    width: 27%;
+    padding: 20px;  
+}
+
+.card img{
+    width: 100%;
+}
+
+.card-botao{
+    background-color: purple;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
