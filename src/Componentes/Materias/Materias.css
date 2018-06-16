@@ -1,0 +1,18 @@
+.materias h2{
+    text-align: center;
+    font-size: 30px;
+    background-color:#674582;
+    padding: 10px 0;
+    color: white;
+}
+
+.materias-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+

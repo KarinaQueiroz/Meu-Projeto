@@ -1,0 +1,18 @@
+.secao {
+    display: flex;
+    align-items: center;
+ }
+ 
+ .secao p{
+     display: flex;
+     text-align: justify;
+     line-height: 2;
+     padding: 40px;
+ }
+ 
+ .secao img{
+     width: 22%;
+     margin: 30px;
+     display: flex;
+ }
+ 

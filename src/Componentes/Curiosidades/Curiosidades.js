@@ -3,10 +3,9 @@ import Card from '../Card/Card'
 import gatoGalactico from './gato-galactico.jpg'
 import gatoRuivo from './gato-ruivo.jpg'
 import gatoVoando from './gato-voando.jpg'
-import gatoCoroa from './gato-coroa.jpg'
+import gatoCoroa from './gatoCoroa.jpg'
 import gatoComBola from './gato-com-bola.jpg'
 import gatoDormindo from './gato-dormindo.jpg'
-import Home from '../Home/Home'
 import './Curiosidades.css'
 
 
@@ -24,9 +23,6 @@ function Curiosidades(props){
                 <Card texto="Reciclagem" imagemCaminho={gatoComBola} imagemDescricao="gato-com-bola"/>
                 <Card texto="Marcelo" imagemCaminho={gatoDormindo} imagemDescricao="gato-dormindo"/>
             </div>
-
-                <Home/>
-            
         </section>
 
 
