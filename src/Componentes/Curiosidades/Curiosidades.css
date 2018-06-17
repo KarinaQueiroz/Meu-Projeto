@@ -1,29 +1,11 @@
-.voce-sabia h1{
+.curiosidades-titulo {
     text-align: center;
     font-size: 30px;
 }
 
-.sabia{
+.curiosidades-cards {
     display: flex;
-    padding: 30px;
+    padding: 30px 15px;
     justify-content: center;
     text-align: center;
 }
-
-.home {
-    display: flex;
-    align-items: center;
- }
- 
- .home p{
-     display: flex;
-     text-align: justify;
-     line-height: 2;
-     padding: 40px;
- }
- 
- .home img{
-     width: 22%;
-     margin: 30px;
-     display: flex;
- }
