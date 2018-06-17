@@ -1,56 +1,52 @@
 import React from 'react'
 import './Materias.css'
 import Card from '../Card/Card'
-import gatoCoroa from '../Curiosidades/gatoCoroa.jpg'
+import gatinho from './gatinho.jpg'
  
 
+let cards = [
+    {
+        id: 'card1',
+        imagemCaminho: gatinho,
+        imagemDescricao: '',
+        texto: 'Lorem Ipsum'
+    },
+    {
+        id: 'card2',
+        imagemCaminho: gatinho,
+        imagemDescricao: '',
+        texto: 'Lorem Ipsum'
+    },
+    {
+        id: 'card3',
+        imagemCaminho: gatinho,
+        imagemDescricao: '',
+        texto: 'Lorem Ipsum'
+    },
+    {
+        id: 'card4',
+        imagemCaminho: gatinho,
+        imagemDescricao: '',
+        texto: 'Lorem Ipsum'
+    }
+]
 
-function Materias (props){
-
-  let  materiasCards = [
-            {
-                    imagemCaminho: gatoCoroa,
-                    imagemDescricao: '',
-                    texto: 'Lorem Ipsum'
-
-            },{
-                    imagemCaminho: gatoCoroa,
-                    imagemDescricao: '',
-                    texto: 'Lorem Ipsum'
-            },
-            {
-                    imagemCaminho: gatoCoroa,
-                    imagemDescricao: '',
-                    texto: 'Lorem Ipsum'
-            },
-                     {
-                    imagemCaminho: gatoCoroa,
-                    imagemDescricao: '',
-                    texto: 'Lorem Ipsum'
-            }
-        ]
-
-     
-
+function Materias(props) {
     return(
         <section className="materias">
-        <h2>Matérias</h2>
+            <h2 className="materias-titulo">Matérias</h2>
 
-
-
-        <div className="materias-cards">
-            {materiasCards.map((materiasComCards)=>{
-                return (
-                    <Card imagemCaminho={materiasComCards.imagemCaminho}
-                            imagemDescricao=""
-                            texto='Lorem Ipsum'
+            <div className="materias-cards">
+                {cards.map(card => (
+                    <Card 
+                        key={card.id}
+                        imagemCaminho={card.imagemCaminho}
+                        imagemDescricao={card.imagemDescricao}
+                        texto={card.texto}
                     />
-                )
-            })}
-         </div>           
+                ))}
+            </div>           
         </section>
-
-
     )
 }
 

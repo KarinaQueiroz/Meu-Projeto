@@ -2,16 +2,12 @@ import React from 'react'
 import './Secao.css'
 
 
-
-function Secao (props){
+function Secao(props) {
     return(
-        <section>
-        <div className="secao">
+        <section className="secao">
             {props.texto}
-            <img src={props.imagem} alt=""/>
-
-        </div>
-    </section>
+            <img className="secao-imagem" src={props.imagem} alt=""/>
+        </section>
     )
 }
 

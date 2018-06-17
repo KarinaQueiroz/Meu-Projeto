@@ -1,11 +1,12 @@
-.recicle h2{
-    text-align: center;
-    font-size: 25px;
-    background-color:#674582;
-    padding: 10px 0;
+.recicle-titulo {
     color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0;
+    background-color:#674582;
 }
 
-.recicle h3{
+.recicle-subtitulo {
     text-align: center;
+    padding: 15px 15px 30px;
 }

@@ -1,17 +1,35 @@
-ul{
+.navbar {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     position: fixed;
     top: 0;
+    box-sizing: border-box;
     width: 100%;
+    padding: 0 30px;
     background-color:#674582;
-    padding: 10px 0;
+}
+
+.navbar-logo {
+    height: 30px;
+}
+
+.navbar-logo img {
+    height: 100%;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
     text-transform: uppercase;
 }
 
-ul a{
-    text-decoration: none;
+.navbar-links li {
+    padding: 10px 20px;
+}
+
+.navbar-links a {
     color: ghostwhite;
     font-size: 20px;
+    text-decoration: none;
 }
