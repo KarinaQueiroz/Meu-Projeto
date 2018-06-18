@@ -5,7 +5,7 @@ import './Banner.css'
 
 function Banner(props) {
     return (
-        <img className="banner" src={planet} alt="Banner" />
+        <img id="#id-banner" className="banner" src={planet} alt="Banner" />
     )
 }
 

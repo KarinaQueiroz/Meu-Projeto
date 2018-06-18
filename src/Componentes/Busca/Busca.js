@@ -64,16 +64,17 @@ class Busca extends React.Component {
         }
 
         return (
-            <section className="busca">
-                <h2 className="busca-titulo">Recicle</h2>
-                <h3 className="recicle-subtitulo">
+            <section className="busca" id="id-busca">
+                <h2 className="busca-titulo">RECICLE</h2>
+                <h3 className="busca-subtitulo">
                 Se você quer dar o destino certo, mas não conhece, 
                 encontre aqui o local de coleta mais próximo de você!
                 </h3>
 
                 <form className="busca-formulario">
-                    <label htmlFor="zona">Buscar por: </label>
+                    
                     <select id="zona" value={this.state.zona} onChange={this.handleChange}>
+                        <option value="">Buscar por</option>
                         <option value="">Todas</option>
                         <option value="centro">Centro</option>
                         <option value="norte">Zona norte</option>

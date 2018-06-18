@@ -33,8 +33,8 @@ let cards = [
 
 function Materias(props) {
     return(
-        <section className="materias">
-            <h2 className="materias-titulo">Matérias</h2>
+        <section className="materias" id="id-materias">
+            <h2 className="materias-titulo">MATÉRIAS</h2>
 
             <div className="materias-cards">
                 {cards.map(card => (

@@ -6,8 +6,8 @@ import './Curiosidades.css'
 
 function Curiosidades(props){
     return (
-        <section className="curiosidades">
-            <h1 className="curiosidades-titulo">Curiosidades</h1>
+        <section className="curiosidades" id="id-curiosidades">
+            <h1 className="curiosidades-titulo">INFORMATIVO</h1>
             
             <div class="curiosidades-cards">
                 <Card texto="Lorem Ipsum" imagemCaminho={gatinho} imagemDescricao="gatinho"/>

@@ -4,6 +4,7 @@ import Banner from './Componentes/Banner/Banner'
 import Curiosidades from './Componentes/Curiosidades/Curiosidades'
 import Secao from './Componentes/Secao/Secao'
 import Indicacoes from './Componentes/Indicacoes/Indicacoes'
+import Materias from './Componentes/Materias/Materias'
 import Busca from './Componentes/Busca/Busca'
 import gatinho from './gatinho.jpg'
 import Footer from './Componentes/Footer/Footer'
@@ -22,7 +23,7 @@ class App extends Component {
         
         <Secao
           imagem={gatinho}
-          texto={
+          texto={ 
             <p>
               O Sustencicla foi idealizado pela estudante de Desenvolvimento Front-End Karina, como apresentação do projeto
               final para a conclusão do curso oferecido pela Reprograma. Desenvolver este projeto foi uma experiência incrível!<br />
@@ -36,7 +37,9 @@ class App extends Component {
         />
         
         <Indicacoes />
-              
+
+        <Materias />
+            
         <Busca />
 
         <Footer />

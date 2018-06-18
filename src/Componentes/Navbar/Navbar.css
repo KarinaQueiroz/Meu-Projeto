@@ -1,3 +1,7 @@
+/* *{
+    box-sizing: border-box;
+} */
+
 .navbar {
     display: flex;
     align-items: center;
@@ -6,13 +10,18 @@
     top: 0;
     z-index: 1;
     box-sizing: border-box;
-    width: 100%;
+    width: 100vw;
     padding: 0 30px;
     background-color:#c0d66d;
+    background-image: url("../../Imagens/fundo.png");
+    background-size: cover;
+
+
 }
 
 .navbar-logo {
     height: 40px;
+    padding: 20px;
 }
 
 .navbar-logo img {
@@ -23,6 +32,7 @@
     display: flex;
     align-items: center;
     text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .navbar-links li {
@@ -30,7 +40,13 @@
 }
 
 .navbar-links a {
-    color: #1d2501;
+    color: #c0d66d;
     font-size: 20px;
     text-decoration: none;
+    transition: 1s;
+}
+
+.navbar-links a:hover{
+    color: #dd6500;
+    transition: 1s;
 }

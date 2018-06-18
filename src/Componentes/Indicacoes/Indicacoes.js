@@ -6,8 +6,8 @@ import './Indicacoes.css'
 
 function Indicacoes (props) {
     return(
-        <section class="indicacoes">
-            <h2 className="indicacoes-titulo">Indicações</h2>  
+        <section class="indicacoes" id="id-indicacoes">
+            <h2 className="indicacoes-titulo">INDICAÇÕES</h2>  
             
             <div class="indicacoes-cards">
                 <Card texto="Lorem Ipsum" imagemCaminho={gatinho} imagemDescricao="gatinho"/>
