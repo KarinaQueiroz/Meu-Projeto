@@ -57,7 +57,7 @@ class Busca extends React.Component {
 
         return (
             <section className="busca">
-                <h2 className="busca-titulo">Vale Conhecer</h2>
+                <h2 className="busca-titulo">Recicle</h2>
 
                 <form className="busca-formulario">
                     <label htmlFor="zona">Buscar por: </label>

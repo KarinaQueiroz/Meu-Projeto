@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from './logo.png'
 import gatinho from './gatinho.jpg'
 import './Navbar.css'
 
@@ -7,7 +8,7 @@ function Navbar(props) {
     return (
         <header className="navbar">
             <div className="navbar-logo">
-                <img src={gatinho} alt="logo" />
+                <img src={logo} alt="logo" />
             </div>
 
             <nav>
