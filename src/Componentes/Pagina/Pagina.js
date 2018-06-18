@@ -1,5 +1,6 @@
 import React from 'react'
 import { Parallax } from 'react-scroll-parallax';
+import fundo from './parallax.jpg'
  
 const ParallaxImage = () => (
     <Parallax
@@ -9,7 +10,7 @@ const ParallaxImage = () => (
         slowerScrollRate
         tag="figure"
     >
-        <Image src="./parallax.jpg" />
+        <Image src={fundo} />
     </Parallax>
 );
 

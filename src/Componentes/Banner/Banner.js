@@ -1,11 +1,11 @@
 import React from 'react'
-import lixo from './lixo.jpg'
+import planet from './planet.jpg'
 import './Banner.css'
 
 
 function Banner(props) {
     return (
-        <img className="banner" src={lixo} alt="Banner" />
+        <img className="banner" src={planet} alt="Banner" />
     )
 }
 

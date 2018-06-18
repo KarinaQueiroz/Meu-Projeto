@@ -2,11 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color:  #1d2501;
     padding: 20px;
     
 }
 
 .rodape p{
-    color: white;   
+    color: #c0d66d;   
 }

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { ParallaxProvider } from 'react-scroll-parallax';
 import Navbar from './Componentes/Navbar/Navbar'
 import Banner from './Componentes/Banner/Banner'
 import Curiosidades from './Componentes/Curiosidades/Curiosidades'
@@ -9,6 +8,7 @@ import Materias from './Componentes/Materias/Materias'
 import Busca from './Componentes/Busca/Busca'
 import gatinho from './gatinho.jpg'
 import Footer from './Componentes/Footer/Footer'
+import fundo from './Componentes/Pagina/parallax.jpg'
 import './App.css';
 
 
@@ -16,10 +16,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <ParallaxProvider>
-                <App />
-        </ParallaxProvider>
-
         <Navbar />
         
         <Banner />
@@ -48,6 +44,7 @@ class App extends Component {
         <Busca />
 
         <Footer />
+
       </div>
     );
   }

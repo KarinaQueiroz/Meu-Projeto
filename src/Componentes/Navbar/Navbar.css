@@ -7,11 +7,11 @@
     box-sizing: border-box;
     width: 100%;
     padding: 0 30px;
-    background-color:#9e77be;
+    background-color:#c0d66d;
 }
 
 .navbar-logo {
-    height: 30px;
+    height: 40px;
 }
 
 .navbar-logo img {
@@ -29,7 +29,7 @@
 }
 
 .navbar-links a {
-    color: ghostwhite;
+    color: #1d2501;
     font-size: 20px;
     text-decoration: none;
 }
