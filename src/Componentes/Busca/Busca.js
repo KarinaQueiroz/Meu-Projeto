@@ -10,13 +10,21 @@ class Busca extends React.Component {
             {
                 id: 'zona1',
                 foto: gatinho,
+                zona: 'centro',
+                local: 'Recicla Centro',
+                endereco: 'Rua do Norte, 1',
+                telefone: '(11) 11111-1111',
+            },
+            {
+                id: 'zona2',
+                foto: gatinho,
                 zona: 'norte',
                 local: 'Recicla Norte',
                 endereco: 'Rua do Norte, 1',
                 telefone: '(11) 11111-1111',
             },
             {
-                id: 'zona2',
+                id: 'zona3',
                 foto: gatinho,
                 zona: 'sul',
                 local: 'Recicla Sul',
@@ -24,7 +32,7 @@ class Busca extends React.Component {
                 telefone: '(11) 22222-2222',
             },
             {
-                id: 'zona3',
+                id: 'zona4',
                 foto: gatinho,
                 zona: 'leste',
                 local: 'Recicla Leste',
@@ -32,7 +40,7 @@ class Busca extends React.Component {
                 telefone: '(11) 33333-3333',
             },
             {
-                id: 'zona4',
+                id: 'zona5',
                 foto: gatinho,
                 zona: 'oeste',
                 local: 'Recicla Oeste',
@@ -58,11 +66,16 @@ class Busca extends React.Component {
         return (
             <section className="busca">
                 <h2 className="busca-titulo">Recicle</h2>
+                <h3 className="recicle-subtitulo">
+                Se você quer dar o destino certo, mas não conhece, 
+                encontre aqui o local de coleta mais próximo de você!
+                </h3>
 
                 <form className="busca-formulario">
                     <label htmlFor="zona">Buscar por: </label>
                     <select id="zona" value={this.state.zona} onChange={this.handleChange}>
                         <option value="">Todas</option>
+                        <option value="centro">Centro</option>
                         <option value="norte">Zona norte</option>
                         <option value="sul">Zona sul</option>
                         <option value="leste">Zona leste</option>

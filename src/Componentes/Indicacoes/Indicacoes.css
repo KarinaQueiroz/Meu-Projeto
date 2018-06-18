@@ -1,4 +1,4 @@
-.recicle-titulo {
+.indicacoes-titulo {
     color: #1d2501;
     font-size: 25px;
     text-align: center;
@@ -6,7 +6,15 @@
     background-color:#c0d66d;
 }
 
-.recicle-subtitulo {
+.indicacoes-subtitulo {
     text-align: center;
     padding: 15px 15px 30px;
+}
+
+
+.indicacoes-cards {
+    display: flex;
+    padding: 30px 15px;
+    justify-content: center;
+    text-align: center;
 }

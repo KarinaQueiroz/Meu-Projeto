@@ -3,12 +3,10 @@ import Navbar from './Componentes/Navbar/Navbar'
 import Banner from './Componentes/Banner/Banner'
 import Curiosidades from './Componentes/Curiosidades/Curiosidades'
 import Secao from './Componentes/Secao/Secao'
-import Recicle from './Componentes/Recicle/Recicle'
-import Materias from './Componentes/Materias/Materias'
+import Indicacoes from './Componentes/Indicacoes/Indicacoes'
 import Busca from './Componentes/Busca/Busca'
 import gatinho from './gatinho.jpg'
 import Footer from './Componentes/Footer/Footer'
-import fundo from './Componentes/Pagina/parallax.jpg'
 import './App.css';
 
 
@@ -37,10 +35,8 @@ class App extends Component {
           }
         />
         
-        <Recicle />
-        
-        <Materias />
-        
+        <Indicacoes />
+              
         <Busca />
 
         <Footer />

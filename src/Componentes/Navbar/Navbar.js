@@ -17,16 +17,16 @@ function Navbar(props) {
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="#">Você sabia?</a>
+                        <a href="#">Curiosidades</a>
                     </li>
                     <li>
-                        <a href="sobre.html">Recicle</a>
+                        <a href="#">Indicações</a>
                     </li>
                     <li>
-                        <a href="perfis.html">Matérias</a>
+                        <a href="#">Matérias</a>
                     </li>
                     <li>
-                        <a href="#">Vale Conhecer</a>
+                        <a href="#">Recicle</a>
                     </li>
                 </ul>
             </nav>
