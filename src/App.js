@@ -6,7 +6,7 @@ import Secao from './Componentes/Secao/Secao'
 import Indicacoes from './Componentes/Indicacoes/Indicacoes'
 import Materias from './Componentes/Materias/Materias'
 import Busca from './Componentes/Busca/Busca'
-import gatinho from './gatinho.jpg'
+import horta from '../src/Imagens/horta.jpg'
 import Footer from './Componentes/Footer/Footer'
 import './App.css';
 
@@ -22,16 +22,11 @@ class App extends Component {
         <Curiosidades />
         
         <Secao
-          imagem={gatinho}
+          imagem={horta}
           texto={ 
             <p>
-              O Sustencicla foi idealizado pela estudante de Desenvolvimento Front-End Karina, como apresentação do projeto
-              final para a conclusão do curso oferecido pela Reprograma. Desenvolver este projeto foi uma experiência incrível!<br />
-              Pensar em sustentabilidade, reciclagem e consumismo hoje é mais que pensar além do presente, é um ato
-              de empatia. Atualmente no mundo bilhões de toneladas de lixo são meramente descartados no planeta, sem preocupação
-              e sem investimento em ideias que auxiliem em concientização e melhorias Apesar de ser um tema atual, ainda
-              se faz muito pouco. Pensando nisso, aqui apresentamos ideias simples que podem ajudar a fazer a diferença.
-              Vamos juntxs!
+              As hortas urbanas, vem ganhando força em São Paulo, por inúmeras iniciativas que ajudam a reestabelecer a biodiversidade proporcionando mais qualidade de vida.
+              Entre os inúmeros benefícios estão: destino de resíduos orgânicos por meio de compostagem, maior biodiversidade já que as plantas se relacionam entre si, integração com a natureza, e melhora da qualidade alimentar. Além de ser ótimo para crianças e pets interagirem, ter contato com plantas melhora a qualidade do ar e desestressa. Faça o teste!
             </p>   
           }
         />

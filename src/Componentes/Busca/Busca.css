@@ -24,6 +24,17 @@
     justify-content: center
 }
 
+#zona{
+    color: #dd6500;
+    padding: 15 25px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 0px 0px 10px #8cb600;
+    
+}
+
+
+
 .busca-lista {
     display: flex;
     justify-content: space-between;

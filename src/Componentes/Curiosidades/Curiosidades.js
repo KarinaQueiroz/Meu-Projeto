@@ -1,6 +1,9 @@
 import React from 'react'
 import Card from '../Card/Card'
-import gatinho from './gatinho.jpg'
+import copo from '../../Imagens/copos.jpg'
+import oleo from '../../Imagens/oleos.jpg'
+import lixoEletronico from '../../Imagens/lixo-eletronico.jpg'
+import canudo from '../../Imagens/canudo.jpg'
 import './Curiosidades.css'
 
 
@@ -10,12 +13,19 @@ function Curiosidades(props){
             <h1 className="curiosidades-titulo">INFORMATIVO</h1>
             
             <div class="curiosidades-cards">
-                <Card texto="Lorem Ipsum" imagemCaminho={gatinho} imagemDescricao="gatinho"/>
-                <Card texto="Lorem Ipsum" imagemCaminho={gatinho} imagemDescricao="gatinho"/>
-                <Card texto="Lorem Ipsum" imagemCaminho={gatinho} imagemDescricao="gatinho"/>
-                <Card texto="Lorem Ipsum" imagemCaminho={gatinho} imagemDescricao="gatinho"/>
-                <Card texto="Lorem Ipsum" imagemCaminho={gatinho} imagemDescricao="gatinho"/>
-                <Card texto="Lorem Ipsum" imagemCaminho={gatinho} imagemDescricao="gatinho"/>
+                <Card texto=
+                    "Algo muito simples, habitual, muito usado, e que demora pelo menos entre 250 a 400 anos para se decompor. Sim!
+                    Além de ser utilizado 3 litros de água na produção de cada copo." imagemCaminho={copo} imagemDescricao="imagem copo descartável"/>
+
+                <Card texto= 
+                    "O óleo de cozinha contamina milhares de litros de água se descartado de maneira incorreta. Com o descarte correto, é possível fazer sabão, tintas e até combustível." imagemCaminho={oleo} imagemDescricao="imagem oleo de cozinha sendo descartado"/>
+
+                <Card texto=
+                    "O problema do lixo eletrônico é ainda maior, os aparelhos eletrônicos são compostos por substâncias tóxicas como chumbo, mercúrio e berílio. Além de contaminar o ambiente, causa problemas de saúde pública." imagemCaminho={lixoEletronico} imagemDescricao="lixo eletronico"/>
+
+                <Card texto=
+                    "O canudinho plástico representa 4% de todo o lixo plástico do mundo, não é biodegradável e por ser plástico pode levar até mil anos para se decompor.
+                    Fonte de formação de microplástico, mais prejudicial, já esta presente nos alimentos, no sal e até na água potável do mundo inteiro." imagemCaminho={canudo} imagemDescricao="canudos"/>
             </div>
         </section>
     )
