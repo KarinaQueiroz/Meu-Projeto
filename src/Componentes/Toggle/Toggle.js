@@ -1,26 +1,16 @@
 import React from 'react'
-import { Collapse } from 'antd/lib/;
-const Panel = Collapse.Panel;
+import './Toggle.css'
 
-function callback(key) {
-  console.log(key);
+
+function ActionLink (props){
+  function handleClick(e){
+    e.preventDefault();
+
+  }
+
+  return(
+    <a href="#" onClick={handleClick}>Ler mais</a>
+  );
 }
-
-const text = `
-  A dog is a type of domesticated animal.
-  Known for its loyalty and faithfulness,
-  it can be found as a welcome guest in many households across the world.
-`;
-
-ReactDOM.render(
-  <Collapse defaultActiveKey={['1']} onChange={callback}>
-    <Panel header="This is panel header 1" key="1">
-      <p>{text}</p>
-    </Panel>
-    <Panel header="This is panel header 2" key="2">
-      <p>{text}</p>
-    </Panel>
-  </Collapse>
-, mountNode);
-
-export default Collapse
+  
+  

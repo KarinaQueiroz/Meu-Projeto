@@ -24,8 +24,7 @@ function Curiosidades(props){
                     "O problema do lixo eletrônico é ainda maior, os aparelhos eletrônicos são compostos por substâncias tóxicas como chumbo, mercúrio e berílio. Além de contaminar o ambiente, causa problemas de saúde pública." imagemCaminho={lixoEletronico} imagemDescricao="lixo eletronico"/>
 
                 <Card texto=
-                    "O canudinho plástico representa 4% de todo o lixo plástico do mundo, não é biodegradável e por ser plástico pode levar até mil anos para se decompor.
-                    Fonte de formação de microplástico, mais prejudicial, já esta presente nos alimentos, no sal e até na água potável do mundo inteiro." imagemCaminho={canudo} imagemDescricao="canudos"/>
+                    "O canudinho plástico representa 4% de todo o lixo plástico do mundo, não é biodegradável e por ser plástico pode levar até mil anos para se decompor, além dos microplásticos que já estão presentes nos alimentos, no sal e até na água potável do mundo inteiro." imagemCaminho={canudo} imagemDescricao="canudos"/>
             </div>
         </section>
     )

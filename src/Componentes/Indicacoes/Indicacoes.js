@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from '../Card/CardLink'
-import menos from '../../Imagens/menos1lixo.jpg'
+import menos from '../../Imagens/menos1lixo.png'
 import pensamento from '../../Imagens/pensamentoverde.jpg'
 import cataki from '../../Imagens/cataki.png'
 import camon from '../../Imagens/camismonteiro.jpg'
@@ -20,9 +20,9 @@ function Indicacoes (props) {
                 <Card texto=
                 "O Pensamento Verde é um portal com a missão de informar, conscientizar e promover ações focados no meio ambiente e Sustentabilidade, no site você encontra informações diversas de alimentação a arquitetura, tudo voltado para iniciativas e tecnologias sustentavéis. Vem ver: http://www.pensamentoverde.com.br/ " imagemCaminho={pensamento} imagemDescricao="site pensamento verde"/>
 
-                <Card texto="O Cataki é um app de reciclagem que simplesmente cadastra catadores autônomos para coletas. Chamando a atenção para o setor não regulamentado e pouco reconhecido, o app pretende aproximar os dois lados, entre geradores e catadores aliando reciclagem e renda, tendo  aproximadamente 300 catadores cadastrados. Vem ver: http://www.cataki.org/#/" imagemCaminho={cataki} imagemDescricao="imagem aplicativo cataki"/>
+                <Card texto="O Cataki é um app de reciclagem que simplesmente cadastra catadores autônomos para coletas. Chamando a atenção para o setor não regulamentado e pouco reconhecido, o app pretende aproximar os dois lados, entre geradores e catadores aliando reciclagem e renda. Vem ver: http://www.cataki.org/#/" imagemCaminho={cataki} imagemDescricao="imagem aplicativo cataki"/>
 
-                <Card texto="O CaMon Ecofashion é uma marca criada por Camila Moteiro, visando o Zero Waste, ou seja o desperdício zero. Costureira, Estilista, Desenvolvedora, Arduineira entusiasta de wearables e Sustentável, Camila sempre se preocupou com o número de tecidos descartados por industrias, através de parceiros com a sua marca, ela desenvolve modelos incríveis. Vem Ver: https://www.facebook.com/camonecofashion/" imagemCaminho={camon} imagemDescricao="imagem marca Camon"/>
+                <Card texto="O CaMon Ecofashion é uma marca criada por Camila Moteiro, visando o Zero Waste, ou seja o desperdício zero. Camila sempre se preocupou com o número de tecidos descartados por industrias, através de parceiros com a sua marca, ela desenvolve modelos incríveis. Vem Ver: https://www.facebook.com/camonecofashion/" imagemCaminho={camon} imagemDescricao="imagem marca Camon"/>
             </div>
         </section>
         

@@ -1,9 +1,12 @@
 import React from 'react'
 import './Card.css'
+import '../Toggle/Toggle'
 
 
 function Card (props){
     return (
+
+
         <div className="card">
             <img className="card-imagem" src={props.imagemCaminho} alt={props.imagemDescricao} />
             <p className="card-texto">{props.texto}</p>

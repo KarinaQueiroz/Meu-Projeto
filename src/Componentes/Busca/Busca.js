@@ -1,5 +1,9 @@
 import React from 'react'
-import gatinho from './gatinho.jpg'
+import meteoro from '../../Imagens/meteoro.gif'
+import norte from '../../Imagens/norte.gif'
+import sul from '../../Imagens/sul.gif'
+import run from '../../Imagens/run.gif'
+import oeste from '../../Imagens/oeste.gif'
 import './Busca.css'
 
 
@@ -9,7 +13,7 @@ class Busca extends React.Component {
         lista: [
             {
                 id: 'zona1',
-                foto: gatinho,
+                foto: meteoro,
                 zona: 'centro',
                 local: 'Recicla Centro',
                 endereco: 'Rua do Norte, 1',
@@ -17,7 +21,7 @@ class Busca extends React.Component {
             },
             {
                 id: 'zona2',
-                foto: gatinho,
+                foto: norte,
                 zona: 'norte',
                 local: 'Recicla Norte',
                 endereco: 'Rua do Norte, 1',
@@ -25,7 +29,7 @@ class Busca extends React.Component {
             },
             {
                 id: 'zona3',
-                foto: gatinho,
+                foto: sul,
                 zona: 'sul',
                 local: 'Recicla Sul',
                 endereco: 'Rua do Sul, 2',
@@ -33,7 +37,7 @@ class Busca extends React.Component {
             },
             {
                 id: 'zona4',
-                foto: gatinho,
+                foto: run,
                 zona: 'leste',
                 local: 'Recicla Leste',
                 endereco: 'Rua do Leste, 3',
@@ -41,7 +45,7 @@ class Busca extends React.Component {
             },
             {
                 id: 'zona5',
-                foto: gatinho,
+                foto: oeste,
                 zona: 'oeste',
                 local: 'Recicla Oeste',
                 endereco: 'Rua do Oeste, 4',
@@ -57,11 +61,9 @@ class Busca extends React.Component {
     }
 
     render() {
-        let lista = this.state.lista;
+        const lista = this.state.lista.filter(item => item.zona === this.state.zona)
+            
 
-        if (this.state.zona) {
-            lista = this.state.lista.filter(item => item.zona === this.state.zona)
-        }
 
         return (
             <section className="busca" id="id-busca">
@@ -74,13 +76,12 @@ class Busca extends React.Component {
                 <form className="busca-formulario">
                     
                     <select id="zona" value={this.state.zona} onChange={this.handleChange}>
-                        <option value="">Buscar por</option>
-                        <option value="">Todas</option>
-                        <option value="centro">Centro</option>
-                        <option value="norte">Zona norte</option>
-                        <option value="sul">Zona sul</option>
-                        <option value="leste">Zona leste</option>
-                        <option value="oeste">Zona oeste</option>
+                        <option className="opcao" value="">Buscar por</option>
+                        <option className="opcao" value="centro">Centro</option>
+                        <option className="opcao" value="norte">Zona norte</option>
+                        <option className="opcao" value="sul">Zona sul</option>
+                        <option className="opcao" value="leste">Zona leste</option>
+                        <option className="opcao" value="oeste">Zona oeste</option>
                     </select>
                 </form>
 
