@@ -10,10 +10,10 @@ function Navbar(props) {
                 <img src={logo} alt="logo" />
             </div>
 
-            <nav>
+            <nav id="navbar-todos-links">
                 <ul className="navbar-links">
                     <li>
-                        <a href="#id-banner">Home</a>
+                        <a href="#id-navbar-todos-links">Home</a>
                     </li>
                     <li>
                         <a href="#id-curiosidades">Informativo</a>
