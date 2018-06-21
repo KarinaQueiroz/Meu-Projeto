@@ -27,3 +27,14 @@
     justify-content: center;
     text-align: left;
 }
+
+
+
+@media(max-width: 400px){
+    .indicacoes-cards {
+        display: unset;
+        padding: 30px 15px;
+        justify-content: center;
+        text-align: center;
+    }
+}

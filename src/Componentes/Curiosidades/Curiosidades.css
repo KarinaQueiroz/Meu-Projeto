@@ -14,3 +14,24 @@
     justify-content: center;
     text-align: justify;
 }
+
+/*Responsivo*/
+
+@media(max-width:400px){
+    .curiosidades-titulo {
+        text-align: center;
+        font-size: 18px;
+        padding: 5px 0;
+        color: #1d2501;
+        background-color:#c0d66d;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .curiosidades-cards {
+        display: unset;
+        padding: 30px 15px;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+    }
+}

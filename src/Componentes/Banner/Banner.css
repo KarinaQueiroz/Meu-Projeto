@@ -4,3 +4,12 @@
     margin-top: 85px;
     margin-bottom: 30px;
 }
+
+@media(max-width:400px){
+    .banner{
+        height: 50vw;
+        width: 55vw;
+        margin-top: 85px;
+        margin-bottom: 30px; 
+    } 
+}    

@@ -53,7 +53,39 @@
 
 /*Responsivo*/
 
-@media(max-width:480){
-    
+@media(max-width:400px){
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        box-sizing: border-box;
+        width: 157vw;
+        padding: 0 25px;
+        background-color:#c0d66d;
+        background-image: url("../../Imagens/fundo.png");
+        background-size: cover;
+    }
+
+    .navbar-logo {
+        height: 20px;
+        padding: 15px;
+    }
+
+    .navbar-logo img {
+        height: 100%;
+    }
+
+    .navbar-links {
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+
 
 }
