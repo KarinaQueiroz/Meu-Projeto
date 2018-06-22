@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from './Componentes/Navbar/Navbar'
+import { Link } from 'react-router-dom'
 import Banner from './Componentes/Banner/Banner'
 import Curiosidades from './Componentes/Curiosidades/Curiosidades'
 import Secao from './Componentes/Secao/Secao'

@@ -63,3 +63,30 @@
         opacity: 1;
     }
 }
+
+@media(max-width: 400px){
+
+
+    #zona{
+        color: #dd6500;
+        font-size: 17px;
+        font-family: 'Quicksand', sans-serif;
+        box-shadow: 0px 0px 10px #8cb600;    
+    }
+
+
+    .busca-lista {
+        display: unset;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .busca-lista-item {
+        width: 75%;
+        margin: 0 auto;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #8cb600;
+        animation: fadein 2s;
+    }
+
+}
