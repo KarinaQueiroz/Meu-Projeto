@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 // import { ParallaxProvider } from 'react-scroll-parallax';
+import {BrowserRouter as Router} from 'react-router-dom'
 
 
 
@@ -12,5 +13,12 @@ import registerServiceWorker from './registerServiceWorker';
 // <App />
 // </ParallaxProvider>
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+    (
+        <Router>
+            <App />
+        </Router>
+    )       
+    
+,document.getElementById('root'));
 registerServiceWorker();

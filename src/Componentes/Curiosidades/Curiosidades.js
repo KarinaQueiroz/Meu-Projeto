@@ -12,7 +12,7 @@ function Curiosidades(props){
         <section className="curiosidades" id="id-curiosidades">
             <h1 className="curiosidades-titulo">INFORMATIVO</h1>
             
-            <div class="curiosidades-cards">
+            <div className="curiosidades-cards">
                 <Card texto=
                     "Algo muito simples, habitual, muito usado, e que demora pelo menos entre 250 a 400 anos para se decompor. Sim!
                     Além de ser utilizado 3 litros de água na produção de cada copo." imagemCaminho={copo} imagemDescricao="imagem copo descartável"/>
