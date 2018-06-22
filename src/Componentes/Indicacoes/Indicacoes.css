@@ -31,10 +31,30 @@
 
 
 @media(max-width: 400px){
+
+    
+    .vale-conhecer{
+        margin-top: 15px;
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 17px;
+
+    }
+
+    .indicacoes-titulo {
+        color: #1d2501;
+        font-size: 18px;
+        text-align: center;
+        padding: 5px 0;
+        background-color:#c0d66d;
+        font-family: 'Quicksand', sans-serif;
+    }
+
     .indicacoes-cards {
         display: unset;
         padding: 30px 15px;
         justify-content: center;
         text-align: center;
+
     }
 }

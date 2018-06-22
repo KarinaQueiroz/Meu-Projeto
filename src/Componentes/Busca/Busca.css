@@ -66,6 +66,9 @@
 
 @media(max-width: 400px){
 
+    .busca-titulo {
+        font-size: 18px;
+    }
 
     #zona{
         color: #dd6500;

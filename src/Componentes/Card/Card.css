@@ -65,13 +65,19 @@
 
 
 @media(max-width: 400px){
+
+    .card {
+        width: 80%;
+        margin: 50px;
+    }
+
+
     .card-imagem {
         display: unset;
         margin: 0 auto;
         height: 50%;
         max-height: 170px;
         width: 70%;
-        margin-top: 10px;
         box-shadow: 0px 0px 10px #8cb600;    
     }
 

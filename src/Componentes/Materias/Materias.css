@@ -17,6 +17,11 @@
 }
 
 @media(max-width: 400px){
+    .materias-titulo {
+        font-size: 18px;
+    }
+
+
     .materias-cards {
         display: unset;
         justify-content: space-between;
